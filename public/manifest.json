@@ -1,0 +1,17 @@
+{
+  "name": "Phoenix Creative Hub",
+  "short_name": "Phoenix Creative Hub",
+  "description": "Premium IT Solutions & Software Development Company",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#FF6B00",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
