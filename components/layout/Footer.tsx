@@ -176,6 +176,11 @@ export function Footer() {
                                     </a>
                                 </div>
                             </li>
+                            {/* MSME Registration */}
+                            <li className="pt-1 border-t border-slate-900 text-xs text-slate-400">
+                                <span className="text-slate-500 font-semibold block">MSME Registration No:</span>
+                                <span className="text-[#FF6B00] font-mono font-semibold tracking-wider">UDYAM-GJ-09-0074629</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
