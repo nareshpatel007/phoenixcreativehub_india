@@ -113,6 +113,9 @@ export default function Contact() {
                                         <p className="text-xs text-slate-650 leading-relaxed font-medium">
                                             222. Goldmine Jewel, Sector-26, Green City, Gandhinagar - 382028, Gujarat, India
                                         </p>
+                                        <p className="text-xs text-slate-500 mt-1">
+                                            MSME Registration: <span className="font-mono font-semibold text-[#FF6B00]">UDYAM-GJ-09-0074629</span>
+                                        </p>
                                     </div>
                                 </div>
 
