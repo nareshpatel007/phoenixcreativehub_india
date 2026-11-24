@@ -79,13 +79,13 @@ export default function About() {
                         <motion.div variants={stagger} className="grid lg:grid-cols-2 gap-16 items-center">
                             <motion.div variants={fadeUp} className="space-y-6">
                                 <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#FF6B00]">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF6B00] animate-pulse" /> Officially Registered in England & Wales 🇮🇳
+                                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF6B00] animate-pulse" /> Registered MSME Entity (Govt. of India) 🇮🇳
                                 </span>
                                 <h2 className="text-3xl md:text-4xl font-display font-extrabold text-[#111111] tracking-tight">
-                                    Our Growth Story: From India to the UK 🚀
+                                    Our Growth Story: Rooted in India, Delivering Globally 🚀
                                 </h2>
                                 <p className="text-slate-600 text-base leading-relaxed">
-                                    Founded with the vision to deliver world-class digital, creative, and technology solutions, <strong>Phoenix Creative Hub</strong> is officially incorporated under the Companies Act 2006 as a private limited company (<strong>Company Number: </strong>, registered at Companies House, Cardiff on <strong>16th October 2026</strong>).
+                                    Founded with the vision to deliver world-class digital, creative, and technology solutions, <strong>Phoenix Creative Hub</strong> is a registered enterprise under the Ministry of Micro, Small and Medium Enterprises (MSME), Government of India (<strong>Udyam Registration: UDYAM-GJ-09-0074629</strong>).
                                 </p>
                                 <p className="text-slate-600 text-base leading-relaxed">
                                     From our registered office situated at <strong>222. Goldmine Jewel, Sector-26, Green City, Gandhinagar - 382028, Gujarat, India</strong>, we empower UK, European, and global businesses with innovative digital marketing, advanced SEO, GEO, AEO, custom web architectures, and mobile applications.
