@@ -80,9 +80,9 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Phoenix Creative Hub | Web & Software Development Gandhinagar, Gujarat",
-        description: "Leading software development and creative technology company in Gandhinagar, Gujarat, UK.",
+        description: "Leading software development and creative technology company in Gandhinagar, Gujarat, India.",
         images: ["/images/logo-black.png"],
-        creator: "@phoenixcreativehubuk",
+        creator: "@Phoenix1396",
     },
     robots: {
         index: true,
@@ -121,8 +121,10 @@ const jsonLd = {
         "addressCountry": "IN"
     },
     "sameAs": [
-        "https://www.instagram.com/phoenix_creative_hub_uk?cplk=eGxndHBzaHE5dXky",
-        "https://www.facebook.com/phoenixcreativehubukltd"
+        "https://www.instagram.com/phoenix_creative_hub/",
+        "https://www.facebook.com/PhoenixCreativeHub/",
+        "https://www.linkedin.com/company/phoenix-creative-hub",
+        "https://x.com/Phoenix1396"
     ],
     "description": "Phoenix Creative Hub  is a leading software development and creative digital agency in Gandhinagar, Gujarat, UK offering web development, mobile apps, CRM & ERP systems, SEO, GEO, AEO, and AI automation."
 };

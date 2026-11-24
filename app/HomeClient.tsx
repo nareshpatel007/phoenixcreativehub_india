@@ -160,7 +160,7 @@ export default function HomeClient() {
                                     Phoenix Creative Hub 🇮🇳
                                 </span>
                                 <span className="text-xs text-[#FF6B00] font-mono font-semibold bg-white/5 border border-white/10 px-3 py-1.5 rounded-full">
-                                    ISO 9001:2015 Certified
+                                    MSME Registered: UDYAM-GJ-09-0074629
                                 </span>
                             </motion.div>
 

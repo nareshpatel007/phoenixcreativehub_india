@@ -10,6 +10,15 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+// Custom X (Twitter) icon component
+function XTwitterIcon({ className }: { className?: string }) {
+    return (
+        <svg viewBox="0 0 24 24" aria-hidden="true" className={className} fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+        </svg>
+    );
+}
+
 const SERVICES = [
     { label: "Custom Software Development", href: "/services/custom-software-development" },
     { label: "Web & Mobile Applications", href: "/services/web-mobile-development" },
@@ -26,8 +35,10 @@ const QUICK_LINKS = [
 ];
 
 const SOCIAL = [
-    { icon: Instagram, href: "https://www.instagram.com/phoenix_creative_hub_uk?cplk=eGxndHBzaHE5dXky", label: "Instagram" },
-    { icon: Facebook, href: "https://www.facebook.com/phoenixcreativehubukltd", label: "Facebook" },
+    { icon: Instagram, href: "https://www.instagram.com/phoenix_creative_hub/", label: "Instagram" },
+    { icon: Facebook, href: "https://www.facebook.com/PhoenixCreativeHub/", label: "Facebook" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/phoenix-creative-hub", label: "LinkedIn" },
+    { icon: XTwitterIcon, href: "https://x.com/Phoenix1396", label: "X (Twitter)" },
 ];
 
 export function Footer() {
@@ -193,10 +204,12 @@ export function Footer() {
                         <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
                             <p>Copyright &copy; {new Date().getFullYear()} Phoenix Creative Hub. All rights reserved.</p>
                             <span className="hidden sm:inline text-slate-700">|</span>
-                            <span className="text-[#FF6B00] font-mono">ISO 9001:2015 Certified</span>
+                            <span className="text-[#FF6B00] font-mono">MSME: UDYAM-GJ-09-0074629</span>
                         </div>
                         <div className="flex items-center gap-4">
                             <Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+                            <span className="text-slate-700">|</span>
+                            <Link href="/refund_returns" className="hover:text-primary transition-colors">Refund & Returns Policy</Link>
                             <span className="text-slate-700">|</span>
                             <Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link>
                         </div>
